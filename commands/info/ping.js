@@ -1,5 +1,6 @@
 module.exports = {
     name: "ping",
+    aliases: ["latency"],
     description: "Sends the latency of the bot.",
     type: "public",
     allowDM: false,

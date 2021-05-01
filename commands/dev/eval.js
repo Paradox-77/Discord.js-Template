@@ -3,6 +3,7 @@ const clean = require("../../utils/clean.js")
 
 module.exports = {
     name: "eval",
+    aliases: ["js"],
     description: "Evaluate/Run JavaScript code using discord.",
     type: "dev",
     allowDM: true,

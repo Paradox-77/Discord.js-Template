@@ -1,5 +1,6 @@
 module.exports = {
     name: "kill",
+    aliases: ["stop"],
     description: "Kills/Stops the bot",
     type: "dev",
     allowDM: true,
