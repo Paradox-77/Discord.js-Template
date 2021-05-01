@@ -5,6 +5,7 @@ module.exports = {
     name: "eval",
     description: "Evaluate/Run JavaScript code using discord.",
     type: "dev",
+    allowDM: true,
     execute(client, message, args) {
         try{
             const code = args.join(" ");
