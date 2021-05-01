@@ -1,0 +1,17 @@
+{
+  "name": "discord.js-template",
+  "version": "1.0.0",
+  "description": "A discord.js self-bot.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paradoxic",
+  "license": "MIT"
+}
