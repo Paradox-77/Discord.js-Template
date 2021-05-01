@@ -1,5 +1,9 @@
 {
-    "prefix":".",
+    "settings":{
+        "prefix":".",
+        "color":"#30db61"
+    },
+
     "owner":{
         "id":"570491647364825088"
     }
