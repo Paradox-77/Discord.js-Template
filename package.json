@@ -4,11 +4,18 @@
   "description": "A discord.js self-bot.",
   "main": "index.js",
   "dependencies": {
+    "chalk": "^4.1.1",
     "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
+    "module-alias": "^2.2.2",
     "quick.db": "^7.1.3"
+  },
+  "_moduleAliases": {
+    "@paradoxic/clean"      : "./utils/clean",
+    "@paradoxic/keepAlive" : "./utils/keepAlive",
+    "@paradoxic/logger" : "./utils/logger"
   },
   "devDependencies": {},
   "scripts": {

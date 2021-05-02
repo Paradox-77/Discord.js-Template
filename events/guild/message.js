@@ -1,4 +1,4 @@
-const clean = require('../../utils/clean.js')
+const clean = require("@paradoxic/clean")
 
 module.exports = (Discord, client, message) => {
     const prefix = client.config.settings.prefix

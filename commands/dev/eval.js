@@ -1,5 +1,5 @@
 const util = require('util')
-const clean = require("../../utils/clean.js")
+const clean = require("@paradoxic/clean")
 
 module.exports = {
     name: "eval",

@@ -1,3 +1,5 @@
+const logger = require('@paradoxic/logger');
+
 module.exports = () => {
-    console.log('Discord bot has started.')
+    logger.success("Bot has started.")
 }
