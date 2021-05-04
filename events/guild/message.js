@@ -1,5 +1,3 @@
-const clean = require("@paradoxic/clean")
-
 module.exports = {
     name: "message",
     once: false,
@@ -20,7 +18,9 @@ module.exports = {
                 command.execute(client, message, args, Discord)
                 client.db.add(command.name, 1)
             } catch(err) {
-                message.channel.send(`\`ERROR\` \`\`\`xl\n${clean(err)}\n\`\`\``);
+                message.channel.send(`An error occurred while executing the ${command.name} command.\nPlease inform the owner of the error.`);
+                client.log.error(`An error occurred while executing the ${command.name} command.`)
+                client.log.error(err)
             }
         } 
     }

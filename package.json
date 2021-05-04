@@ -15,7 +15,8 @@
   "_moduleAliases": {
     "@paradoxic/clean"      : "./utils/clean",
     "@paradoxic/keepAlive" : "./utils/keepAlive",
-    "@paradoxic/logger" : "./utils/logger"
+    "@paradoxic/logger" : "./utils/logger",
+    "@paradoxic/getTime" : "./utils/getTime"
   },
   "devDependencies": {},
   "scripts": {

@@ -2,9 +2,9 @@ require('module-alias/register')
 require('dotenv').config()
 const Discord = require('discord.js');
 const db = require('quick.db')
-const client = new Discord.Client();
 const config = require('./config.json')
 const logger = require('@paradoxic/logger')
+const client = new Discord.Client();
 
 client.commands = new Discord.Collection();
 client.events = new Discord.Collection();
